@@ -1,5 +1,8 @@
 {
     "users" : [
-        
+        {
+            "name" : "Bohdan",
+            "balance" : 1000
+        }
     ]
 } 
