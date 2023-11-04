@@ -6,7 +6,7 @@ const controller = require('./authcontroller')
 const app = express()
 
 app.use(express.json())
-app.use("/auth", authroute)
+app.use("./auth", authroute)
 const start = async () => {
     try {
         await mongoose.connect('mongodb+srv://barbuhtimofej:yAvxttrOp6mcE3DF@cluster0.fjaolyc.mongodb.net/project')
